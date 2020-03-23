@@ -132,6 +132,15 @@ body {
     cursor: pointer;
 }
 
+.playlist-box {
+    height: 170px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("/assets/heat.svg");
+    background-size: contain;
+}
 
 footer {
     margin: 50px 0;
