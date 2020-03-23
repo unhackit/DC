@@ -168,6 +168,30 @@ body {
 .playlist-box-8{
     background:url("../assets/drill.svg");
 }
+.playlist-box-9{
+    background:url("../assets/detroit.svg");
+}
+.playlist-box-10{
+    background:url("../assets/gamer.svg");
+}
+.playlist-box-11{
+    background:url("../assets/canadian.svg");
+}
+.playlist-box-12{
+    background:url("../assets/atlanta.svg");
+}
+.playlist-box-13{
+    background:url("../assets/disco.svg");
+}
+.playlist-box-14{
+    background:url("../assets/rap.svg");
+}
+.playlist-box-15{
+    background:url("../assets/tecno.svg");
+}
+.playlist-box-16{
+    background:url("../assets/instrument.svg");
+}
 
 footer {
     margin: 50px 0;
