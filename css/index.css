@@ -6,6 +6,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+* {
+    overflow: auto;
+}
+
 .navbar .nav-item .nav-link {
     color: #fff;
 }
@@ -209,25 +213,47 @@ body {
     background:url("../assets/bord.svg");
 }
 
-.charts {
-    padding-bottom: 100px;
-    margin: 100px 0;
+
+
+
+
+.ty{
+    background: url("../assets/ty.svg");
+    height: 500px;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    z-index:1;
+}
+
+.be {
+    background: url("../assets/beyonce.svg");
+    height: 500px;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.drake {
+    background: url("../assets/drake.svg");
+    height: 500px;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.chart-img {
+    position: relative;
+    bottom: 300px;
+    z-index: 2;
+}
+
+.play-chart {
+    width: 100px;
+    cursor: pointer;
 }
 
 .chart-box img {
-    width: 33.3%;
-    float: left;
-    margin-bottom: 100px;
+    overflow: hidden;
 }
 
 .footer {
-    margin-top: 100px;
-}
-
-footer {
-    margin: 50px 0;
-    padding-top: 100px;
-    display: block;
+    margin-top:50px;
 }
 
 .footer-title {
