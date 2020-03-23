@@ -193,6 +193,22 @@ body {
     background:url("../assets/instrument.svg");
 }
 
+.playlist-box-01{
+    background:url("../assets/drip.svg");
+}
+.playlist-box-02{
+    background:url("../assets/love.svg");
+}
+.playlist-box-03{
+    background:url("../assets/international.svg");
+}
+.playlist-box-04{
+    background:url("../assets/carib.svg");
+}
+.playlist-box-05{
+    background:url("../assets/bord.svg");
+}
+
 footer {
     margin: 50px 0;
 }
