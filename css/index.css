@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;   
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar .dc-logo {
+    width: 60px;
+}
+
+.about {
+    width: 80%;
+    font-size: 22px;
+    color: #fff;
+    margin: 100px auto;
+}
+
+.services-caption {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.services .service-box {
+    background: #242424;
+    border-radius: 3px;
+    padding: 0 16px;
+    height: 90px;
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+}
+
+.services .service-box-special {
+    background: #242424;
+    border-radius: 3px;
+    padding: 0 16px;
+    height: 198px;
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+}
+
+.service-sub-caption {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.services .service-detail {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.creatives .creative-image {
+    width: 100%;
+    height: 810px;
+}
+
+.creatives .puma {
+    width: 281px;
+}
+
+.creatives .caption {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.creatives .description {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.creatives .video-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #181818;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 188px;
+}
+
+.services .service-box-smart {
+    background: #242424;
+    border-radius: 3px;
+    padding: 0 16px;
+    height: 90px;
+    margin: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 15px 0;
+}
