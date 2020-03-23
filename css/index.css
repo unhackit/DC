@@ -15,12 +15,16 @@ body {
 }
 
 .about {
-    width: 80%;
+    width: 90%;
     font-size: 22px;
     color: #fff;
     margin: 100px auto;
 }
 
+.about-text {
+    width: 80%;
+    margin: 0 auto 80px auto;
+}
 .services-caption {
     font-size: 42px;
     font-weight: 600;
@@ -54,6 +58,16 @@ body {
 .services .service-detail {
     font-size: 14px;
     font-weight: lighter;
+}
+
+.image-slider {
+    width:45em;
+    margin: 0 auto;
+    height: 516px;
+}
+
+.slide-icon {
+    cursor: pointer;
 }
 
 .creatives .creative-image {
@@ -99,6 +113,25 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+
+.newrelease {
+    background: #2C2C2C;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.newrelease .bg {
+    width: 50%;
+}
+
+.play-release {
+    position: relative;
+    bottom: 240px;
+    width: 50px;
+    cursor: pointer;
+}
+
 
 footer {
     margin: 50px 0;
