@@ -138,8 +138,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:url("/assets/heat.svg");
     background-size: contain;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.playlist-box-1{
+    background:url("../assets/heat.svg");
+}
+.playlist-box-2{
+    background:url("../assets/almost.svg");
+}
+.playlist-box-3{
+    background:url("../assets/west.svg");
+}
+.playlist-box-4{
+    background:url("../assets/core.svg");
+}
+.playlist-box-5{
+    background:url("../assets/wave.svg");
+}
+.playlist-box-6{
+    background:url("../assets/inspire.svg");
+}
+.playlist-box-7{
+    background:url("../assets/suave.svg");
+}
+.playlist-box-8{
+    background:url("../assets/drill.svg");
 }
 
 footer {
