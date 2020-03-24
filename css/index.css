@@ -33,6 +33,52 @@ body {
     margin: 0 auto 80px auto;
     font-weight: 900;
 }
+
+.image-slider {
+    width:100em;
+    margin: 0 auto;
+    height: 516px;
+}
+
+.carousel-item-one {
+    background: url("../assets/rascal.jpeg");
+    background: cover;
+    width: 90vw;
+    height: 516px;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carousel-item-two {
+    background: url("../assets/slider1.JPG");
+    background: cover;
+    width: 90vw;
+    height: 516px;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-size: 100% 516px;
+}
+
+.carousel-item-three {
+    background: url("../assets/slider2.JPG");
+    background: cover;
+    width: 90vw;
+    height: 516px;
+    padding: 1px;
+    background-repeat: no-repeat;
+    background-size: 100% 516px;
+}
+
+.slide-icon {
+    cursor: pointer;
+}
+
+.carousels {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .services-caption {
     font-size: 30px;
     font-weight: 600;
@@ -68,15 +114,7 @@ body {
     font-weight: lighter;
 }
 
-.image-slider {
-    width:100rem;
-    margin: 0 auto;
-    height: 516px;
-}
 
-.slide-icon {
-    cursor: pointer;
-}
 
 .creatives .creative-image {
     width: 100%;
@@ -150,6 +188,10 @@ body {
     width: 100%;
     font-size: 20px;
     font-weight: bold;
+}
+
+.playlists a {
+    color: #fff;
 }
 
 .playlist-box-1{
