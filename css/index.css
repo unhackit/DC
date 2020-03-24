@@ -79,6 +79,10 @@ body {
     margin: 0 auto;
 }
 
+.vid-box {
+    overflow: hidden;
+}
+
 .services-caption {
     font-size: 30px;
     font-weight: 600;
