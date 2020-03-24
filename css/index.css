@@ -25,11 +25,13 @@ body {
     font-size: 17px;
     color: #fff;
     margin: 100px auto;
+    
 }
 
 .about-text {
     width: 80%;
     margin: 0 auto 80px auto;
+    font-weight: 900;
 }
 .services-caption {
     font-size: 30px;
@@ -67,7 +69,7 @@ body {
 }
 
 .image-slider {
-    width:100%;
+    width:100rem;
     margin: 0 auto;
     height: 516px;
 }
