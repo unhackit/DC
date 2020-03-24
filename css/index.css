@@ -316,9 +316,39 @@ body {
     overflow: hidden;
 }
 
+
+/* PRIVACY PAGE */
+.privacy-caption {
+    margin: 80px 0;
+}
+
+.privacy-body {
+    background: #fff;
+    padding: 50px 0;
+    color: #000;
+    font-size: 14px;
+}
+
+.privacy-body p {
+    line-height: 25px;
+}
+
+.title {
+    font-weight: 800;
+}
+
 .footer {
     margin-top:50px;
     padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer-title {
