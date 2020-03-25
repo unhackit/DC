@@ -153,7 +153,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #181818;
+    background: url("../assets/pumabg.svg");
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
