@@ -187,9 +187,6 @@ body {
     padding:  10px 15px;
 }
 
-.audio-mack-box:hover {
-    transform: scale(1.2);
-}
 
 .playlist-box {
     height: 170px;
