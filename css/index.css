@@ -179,15 +179,16 @@ body {
     text-align: center;
 }
 
-.newrelease .bg {
-    width: 50%;
+.view-newrelease {
+    background: #FFF;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #212121;
+    padding:  10px 15px;
 }
 
-.play-release {
-    position: relative;
-    bottom: 240px;
-    width: 50px;
-    cursor: pointer;
+.audio-mack-box:hover {
+    transform: scale(1.2);
 }
 
 .playlist-box {
