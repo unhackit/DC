@@ -1,16 +1,25 @@
+@font-face {
+    font-family: 'FuturaPTMedium';
+    src: local('FuturaPTMedium'), url(../fonts/FuturaPTMedium.otf) format('opentype');
+}
+@font-face {
+    font-family: 'FuturaPTLight';
+    src: local('FuturaPTLight'), url(../fonts/FuturaPTLight.otf) format('opentype');
+}
+
+
 body {
     margin: 0;
     padding: 0;
     background: #111;   
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'FuturaPTMedium', sans-serif;
 }
+
 
 * {
     overflow: auto;
 }
-
-
 
 .navbar .nav-item .nav-link {
     color: #fff;
@@ -206,67 +215,109 @@ body {
 
 .playlist-box-1{
     background:url("../assets/heat.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-2{
     background:url("../assets/almost.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-3{
     background:url("../assets/west.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-4{
     background:url("../assets/core.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-5{
     background:url("../assets/wave.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-6{
     background:url("../assets/inspire.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-7{
     background:url("../assets/suave.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-8{
     background:url("../assets/drill.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-9{
     background:url("../assets/detroit.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-10{
     background:url("../assets/gamer.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-11{
     background:url("../assets/canadian.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-12{
     background:url("../assets/atlanta.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-13{
     background:url("../assets/disco.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-14{
     background:url("../assets/rap.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-15{
     background:url("../assets/tecno.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-16{
     background:url("../assets/instrument.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .playlist-box-01{
     background:url("../assets/drip.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-02{
     background:url("../assets/love.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-03{
     background:url("../assets/international.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-04{
     background:url("../assets/carib.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .playlist-box-05{
     background:url("../assets/bord.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -419,6 +470,42 @@ footer ul li {
     }
 
     .ty, .drake {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+    .carousel-item-one {
+        background: url("../assets/rascal.jpeg");
+        background-size: contain;
+        width: 90vw;
+        height: 50vh;
+        padding: 1px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .carousel-item-two {
+        background: url("../assets/slider1.JPG");
+        background-size: contain;
+        width: 90vw;
+        height: 50vh;
+        padding: 1px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .carousel-item-three {
+        background: url("../assets/slider2.JPG");
+        background-size: contain;
+        width: 90vw;
+        height: 50vh;
+        padding: 1px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .slide-icon {
         display: none;
     }
 }
