@@ -530,7 +530,7 @@ footer ul li {
     
     .carousel-item-two {
         background: url("../assets/slider1.JPG");
-        background-size: contain;
+        background-size: cover;
         width: 90vw;
         height: 50vh;
         padding: 1px;
@@ -540,7 +540,7 @@ footer ul li {
     
     .carousel-item-three {
         background: url("../assets/slider2.JPG");
-        background-size: contain;
+        background-size: cover;
         width: 90vw;
         height: 50vh;
         padding: 1px;
