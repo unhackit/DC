@@ -526,6 +526,8 @@ footer ul li {
         padding: 1px;
         background-repeat: no-repeat;
         background-position: center;
+        position: relative;
+        right: 20px;
     }
     
     .carousel-item-two {
