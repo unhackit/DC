@@ -163,6 +163,8 @@ body {
     align-items: center;
     justify-content: center;
     background: url("../assets/pumabg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 6px;
@@ -448,7 +450,35 @@ footer ul li {
         width: 50px;
         cursor: pointer;
     }
+    .creatives .video-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../assets/pumabg.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 6px;
+        height: 300px;
+    }
     
+}
+
+@media screen and (max-width:580px){
+    .creatives .video-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../assets/pumabg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 6px;
+        height: 188px;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -461,6 +491,19 @@ footer ul li {
         bottom: 150px;
         width: 50px;
         cursor: pointer;
+    }
+    .creatives .video-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url("../assets/pumabg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 6px;
+        height: 188px;
+        width: 100%;
     }
 }
 
