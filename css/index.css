@@ -17,6 +17,7 @@ body {
 }
 
 
+
 * {
     overflow: auto;
 }
@@ -30,7 +31,6 @@ body {
 }
 
 .about {
-    width: 90%;
     font-size: 17px;
     color: #fff;
     margin: 100px auto;
@@ -135,8 +135,6 @@ body {
     font-weight: lighter;
 }
 
-
-
 .creatives .creative-image {
     height: 810px;
     overflow: hidden;
@@ -198,7 +196,6 @@ body {
     padding:  10px 15px;
 }
 
-
 .playlist-box {
     height: 170px;
     color: #fff;
@@ -209,6 +206,11 @@ body {
     width: 100%;
     font-size: 20px;
     font-weight: bold;
+}
+
+.playlists {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .playlists a {
@@ -479,6 +481,23 @@ footer ul li {
         height: 188px;
         width: 100%;
     }
+    .puma-section {
+        width: 90%;
+    }
+
+    .new-release-section {
+        width:100%;
+    }
+    .playlist-mobile {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+.playlists {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
 
 @media screen and (max-width:500px){
@@ -505,6 +524,10 @@ footer ul li {
         height: 188px;
         width: 100%;
     }
+
+    .audio-mack-box img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -528,6 +551,17 @@ footer ul li {
         background-position: center;
         position: relative;
         right: 20px;
+    }
+    .about {
+        font-size: 17px;
+        color: #fff;
+        margin: 30px auto;
+        
+    }
+    .about-text {
+        width: 90%;
+        margin: 0 auto 80px auto;
+        font-weight: 900;
     }
     
     .carousel-item-two {
