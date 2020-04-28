@@ -49,34 +49,14 @@ body {
     height: 516px;
 }
 
-.carousel-item-one {
-    background: url("../assets/rascal.jpeg");
-    background: cover;
-    width: 90vw;
-    height: 516px;
-    padding: 1px;
-    background-repeat: no-repeat;
-    background-position: center;
+.slider-item {
+    height: 600px;
+    overflow: hidden;
 }
 
-.carousel-item-two {
-    background: url("../assets/slider1.JPG");
-    background: cover;
-    width: 90vw;
-    height: 516px;
-    padding: 1px;
-    background-repeat: no-repeat;
-    background-size: 100% 516px;
-}
-
-.carousel-item-three {
-    background: url("../assets/slider2.JPG");
-    background: cover;
-    width: 90vw;
-    height: 516px;
-    padding: 1px;
-    background-repeat: no-repeat;
-    background-size: 100% 516px;
+.slider-item img {
+    position: relative;
+    bottom: 250px;
 }
 
 .slide-icon {
