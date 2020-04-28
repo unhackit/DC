@@ -50,13 +50,13 @@ body {
 }
 
 .slider-item {
-    height: 600px;
+    height:600px;
     overflow: hidden;
 }
 
 .slider-item img {
     position: relative;
-    bottom: 250px;
+    bottom:250px;
 }
 
 .slide-icon {
@@ -474,10 +474,10 @@ footer ul li {
         padding: 0;
     }
 
-.playlists {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    .playlists {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -517,6 +517,16 @@ footer ul li {
 
     .ty, .drake {
         display: none;
+    }
+    .slider-item {
+        height:300px;
+        overflow: hidden;
+    }
+    
+    .slider-item img {
+        position: relative;
+        bottom: 150px;
+        height: 600px;
     }
 }
 
